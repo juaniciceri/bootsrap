@@ -23,44 +23,107 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-                    <a class="nav-link" href="#">Sobre nosotros</a>
-                    <a class="nav-link" href="#">Turnos</a>
+                    <a class="nav-link" href="sobre.html">Sobre nosotros</a>
+                    <a class="nav-link" href="turnos.html">Información</a>
                 </div>
             </div>
         </div>
     </nav>
-    <div class="container my-5">
-        <div class="row justify-content-center">
-            <div class="card col-lg-4 col-md-6 col-sm-12 mx-2 my-2" style="width: 18rem;">
-                <img src="./img/corte.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Corte de cabello</h5>
-                    <p class="card-text">800$</p>
-                    <a href="#" class="btn btn-primary">Reserva tu turno!</a>
-                </div>
-            </div>
+    
 
-            <div class="card col-lg-4 col-md-6 col-sm-12 mx-2 my-2" style="width: 18rem;">
-                <img src="./img/corte.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Recorte de barba</h5>
-                    <p class="card-text">250$</p>
-                    <a href="#" class="btn btn-primary">Reserva tu turno!</a>
-                </div>
-            </div>
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
 
-            <div class="card col-lg-4 col-md-6 col-sm-12 mx-2 my-2" style="width: 18rem;">
-                <img src="./img/corte.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Color</h5>
-                    <p class="card-text">2900$</p>
-                    <a href="#" class="btn btn-primary">Reserva tu turno!</a>
-                </div>
-            </div>
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="pricing.css" rel="stylesheet">
+  </head>
+  <body>
+    
+
+
+
+
+     
+
+    <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+      <h1 class="display-4 fw-normal text-white">Servicios</h1>
+      <p class="fs-5 text-white">En Cuttz Barbershop trabajamos con citas para brindar el tiempo y asesoramiento necesario a cada cliente las cuales pueden ser solicitadas telefónicamente o atraves de la aplicación Cuttz (IOS y Android).
+
+        Todos nuestros servicios incluyen una bebida de cortesía (Café, Cerveza o Whisky).</p>
+    </div>
+  </header>
+
+  <main>
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Corte de cabello</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$800<small class="text-muted fw-light"></small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Corte de cabello</li>
+              <li>Lavado incluido</li>
+              <li>Terminaciones con navaja</li>
+             
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Quiero un turno!</button>
+          </div>
         </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Arreglo de barba</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$350<small class="text-muted fw-light"></small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Arreglo de barba con fomento caliente y frío</li>
+              <li>Terminaciones a navaja</li>
+              <li>Productos para el cuidado de tu piel</li>
+              
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Quiero un turno!</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm border-primary">
+          <div class="card-header py-3  ">
+            <h4 class="my-0 fw-normal">Color</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$2900<small class="text-muted fw-light"></small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Servicio de lavado</li>
+              <li>Shampoo matizador de rregalo</li>
+              <li>Corte gratis</li>
+              
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Quiero un turno!</button>
+          </div>
+        </div>
+      </div>
     </div>
 
-
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 
 </html>
